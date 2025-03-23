@@ -14,7 +14,7 @@ class Computer:
         return self.disk
 
 # 사용 예시
-my_computer = Computer("Intel Core i7",)
+my_computer = Computer("Intel Core i7", "16GB", "128GB")
 print(my_computer.get_cpu())
 print(my_computer.get_memory())
 print(my_computer.get_disk())
